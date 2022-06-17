@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+height:600px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width:100%;
+z-index: 111;
+/* z-index: -1; */
+    background-color:#f3f3f3;
+}
+.taskbar .center{
+height:50px;
+cursor: pointer;
+
+}
+.right{
+    height:35px;
+    position:absolute;
+    right:0;
+    margin: 6px 0;
+    
+}
+.startmenu{
+    position: absolute;
+    /* bottom:50px;/ */
+    width: 100%;
+    /* z-index:999; */
+    text-align:center;
+    transition: all .5s ease-in;
+    bottom: -600px;
+    
+
+}
+.startmenu .startimg{
+/* width:300px; */
+width: 550px;
+border-radius: 8px;
+}
